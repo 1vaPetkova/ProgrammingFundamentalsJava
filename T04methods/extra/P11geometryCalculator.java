@@ -1,8 +1,8 @@
-package T04methods.еxerciseЕlena;
+package T04methods.extra;
 
 import java.util.Scanner;
 
-public class P11geometryCalculator {
+public class P11GeometryCalculator {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String figureType = scan.nextLine();

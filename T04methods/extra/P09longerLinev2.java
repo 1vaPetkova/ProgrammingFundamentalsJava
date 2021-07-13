@@ -1,9 +1,9 @@
-package T04methods.еxerciseЕlena;
+package T04methods.extra;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class P09longerLinev2 {
+public class P09LongerLinev2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         double x1 = Double.parseDouble(scan.nextLine());

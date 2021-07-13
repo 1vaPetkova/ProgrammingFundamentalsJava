@@ -1,8 +1,8 @@
-package T04methods.еxerciseЕlena;
+package T04methods.extra;
 
 import java.util.Scanner;
 
-public class P10cubeProperties {
+public class P10CubeProperties {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         double side = Double.parseDouble(scan.nextLine());

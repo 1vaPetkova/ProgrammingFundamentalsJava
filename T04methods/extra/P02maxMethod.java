@@ -1,8 +1,8 @@
-package T04methods.еxerciseЕlena;
+package T04methods.extra;
 
 import java.util.Scanner;
 
-public class P02maxMethod {
+public class P02MaxMethod {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int firstNumber = Integer.parseInt(scan.nextLine());

@@ -6,7 +6,6 @@ public class P01SinoTheWalker {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String[] leaveTime = scan.nextLine().split(":");
-        //86400 - seconds in one day
         int stepsTaken = Integer.parseInt(scan.nextLine())%86400;
         int timePerStep = Integer.parseInt(scan.nextLine())%86400;
         int leaveTimeInSec = (Integer.parseInt(leaveTime[2]) +

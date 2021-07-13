@@ -1,8 +1,8 @@
-package T04methods.еxerciseЕlena;
+package T04methods.extra;
 
 import java.util.Scanner;
 
-public class P06primeChecker {
+public class P06PrimeChecker {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         long number = Long.parseLong(scan.nextLine());

@@ -1,9 +1,9 @@
-package T04methods.еxerciseЕlena;
+package T04methods.extra;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class P04numbersInReversedOrder {
+public class P04NumbersInReversedOrder {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         double number = Double.parseDouble(scan.nextLine());

@@ -12,7 +12,7 @@ public class P02pascalTrianglev2 {
         for (long i = 0; i < countRows; i++) {
             long number = 1;
             for (long j = 0; j <= i; j++) {
-                if(j<i) {
+                if (j < i) {
                     System.out.print(number + " ");
                 } else {
                     System.out.print(number);

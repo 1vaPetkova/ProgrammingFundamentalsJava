@@ -1,8 +1,8 @@
-package T04methods.еxerciseЕlena;
+package T04methods.extra;
 
 import java.util.Scanner;
 
-public class P07primesInGivenRange {
+public class P07PrimesInGivenRange {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int start = Integer.parseInt(scan.nextLine());

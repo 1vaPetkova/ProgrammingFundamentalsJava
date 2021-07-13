@@ -1,8 +1,8 @@
-package T04methods.еxerciseЕlena;
+package T04methods.extra;
 
 import java.util.Scanner;
 
-public class P03englishNameOfLastDigit {
+public class P03EnglishNameOfLastDigit {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         long number = Math.abs(Long.parseLong(scan.nextLine()));
