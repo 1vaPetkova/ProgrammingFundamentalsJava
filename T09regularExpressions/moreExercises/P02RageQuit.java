@@ -14,9 +14,7 @@ public class P02RageQuit {
         StringBuilder result = new StringBuilder();
         while (matcher.find()) {
             int countMsgs = Integer.parseInt(matcher.group("number"));
-            for (int i = 0; i < countMsgs; i++) {
-                result.append( matcher.group("msg"));
-            }
+            result.append(String.valueOf(matcher.group("msg")).repeat(Math.max(0, countMsgs)));
         }
         System.out.printf("Unique symbols used: %d\n", result.chars().distinct().count());
         System.out.println(result);

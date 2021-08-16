@@ -1,6 +1,5 @@
 package T09regularExpressions.moreExercises;
 
-import java.util.Map;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -22,7 +21,8 @@ public class P01WinningTicket {
                     if (leftWin.length() == 10 && rightWin.length() == 10) {
                         System.out.printf("ticket \"%s\" - %d%c Jackpot!\n", s, leftWin.length(), leftWin.charAt(0));
                     } else {
-                        System.out.printf("ticket \"%s\" - %d%c\n", s, Math.min(leftWin.length(), rightWin.length()), leftWin.charAt(0));
+                        System.out.printf("ticket \"%s\" - %d%c\n", s, Math.min(leftWin.length(), rightWin.length()),
+                                                                                            leftWin.charAt(0));
                     }
                 } else {
                     System.out.printf("ticket \"%s\" - no match\n", s);
